@@ -1,6 +1,7 @@
 :root {
     --color_primario: #9d4edd;
-    --fondo__color: #181616;
+    --fondo__color: #201e1c;
+    --secciones: #282623;
 }
 
 /* * {
@@ -60,6 +61,7 @@ button:hover {
 #contactenos {
     width:100%;
     min-width: 360px;
+    background-color: var(--secciones);
 
 }
 
@@ -70,7 +72,7 @@ button:hover {
 #aprenderas {
     width:100%;
     min-width: 360px;
-    background-color: var(--fondo__color);
+    background-color: var(--secciones);
     color: white;
 }
 
@@ -81,7 +83,7 @@ button:hover {
 #quien_soy {
     width:100%;
     min-width: 360px;
-    background-color: var(--fondo__color);
+    background-color: var(--secciones);
     text-align: center;
 }
 
