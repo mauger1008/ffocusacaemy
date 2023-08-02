@@ -61,7 +61,7 @@ button:hover {
 #contactenos {
     width:100%;
     min-width: 360px;
-    background-color: var(--secciones);
+    background-color: var(--fondo__color) !important;
 
 }
 
@@ -72,7 +72,7 @@ button:hover {
 #aprenderas {
     width:100%;
     min-width: 360px;
-    background-color: var(--secciones);
+    background-color: var(--fondo__color) !important;
     color: white;
 }
 
@@ -83,14 +83,14 @@ button:hover {
 #quien_soy {
     width:100%;
     min-width: 360px;
-    background-color: var(--secciones);
+    background-color: var(--fondo__color);
     text-align: center;
 }
 
 footer {
     width:100%;
     min-width: 360px;
-    background-color: var(--fondo__color);
+    background-color: var(--secciones) !important;
     color: white;
 }
 
