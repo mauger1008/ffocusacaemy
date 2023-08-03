@@ -1,7 +1,8 @@
 :root {
     --color_primario: #9d4edd;
-    --fondo__color: #201e1c;
-    --secciones: #282623;
+    --fondo__color: #1f1f1f;
+    --secciones: #2f2f2f;
+    --electro-blue: #1e1736;
 }
 
 /* * {
@@ -38,7 +39,7 @@ button:hover {
     width: 100%;
     min-width: 360px;
     height: 400px;
-    background-color: var(--fondo__color);
+    background: linear-gradient(#1e1736, var(--fondo__color)) !important;
     text-align: center;
     margin-left: 0 !important;
 }
@@ -90,7 +91,7 @@ button:hover {
 footer {
     width:100%;
     min-width: 360px;
-    background-color: var(--secciones) !important;
+    background: linear-gradient(var(--fondo__color), var(--electro-blue)) !important;
     color: white;
 }
 
