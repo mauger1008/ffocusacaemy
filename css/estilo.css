@@ -3,6 +3,7 @@
     --fondo__color: #1f1f1f;
     --secciones: #2f2f2f;
     --electro-blue: #1e1736;
+    --bitcoin-orange: #df861a;
 }
 
 /* * {
@@ -75,7 +76,7 @@ button:hover {
     width:100%;
     min-width: 360px;
     height: 400px;
-    background: linear-gradient(var(--fondo__color), #df861a, var(--fondo__color)) !important;
+    background: linear-gradient(var(--fondo__color), var(--electro-blue), var(--fondo__color)) !important;
     color: white;
 }
 
