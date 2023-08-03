@@ -62,6 +62,7 @@ button:hover {
 #contactenos {
     width:100%;
     min-width: 360px;
+    height: 400px;
     background-color: var(--fondo__color) !important;
 
 }
@@ -73,7 +74,8 @@ button:hover {
 #aprenderas {
     width:100%;
     min-width: 360px;
-    background-color: var(--fondo__color) !important;
+    height: 400px;
+    background: linear-gradient(var(--fondo__color), #df861a, var(--fondo__color)) !important;
     color: white;
 }
 
