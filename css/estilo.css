@@ -6,11 +6,11 @@
     --bitcoin-orange: #df861a;
 }
 
-/* * {
-    box-sizing: border-box;
+* {
+    box-sizing: border-box !important;
     margin: 0;
     padding: 0;
-} */
+} 
 
 html {
     background-color: #3d3a3a;
@@ -36,14 +36,16 @@ button:hover {
     padding: 0 !important;
 } */
 
-.title-bitcoin {
+
+#titulo {
     width: 100%;
     min-width: 360px;
     height: 400px;
     background: linear-gradient(#1e1736, var(--fondo__color)) !important;
     text-align: center;
-    margin-left: 0 !important;
+    /* margin-left: 0 !important; */
 }
+
 .titulo_guia {
     display: flex;
     align-items: center;
@@ -62,8 +64,9 @@ button:hover {
 
 #contactenos {
     width:100%;
+    
     min-width: 360px;
-    height: 400px;
+    height: auto;
     background-color: var(--fondo__color) !important;
 
 }
@@ -96,6 +99,10 @@ footer {
     min-width: 360px;
     background: linear-gradient(var(--fondo__color), var(--electro-blue)) !important;
     color: white;
+}
+
+.card-custom {
+    height: 300px !important;
 }
 
 .btn-whatsapp {

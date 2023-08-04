@@ -22,7 +22,7 @@
 
 <body class="mx-auto">
     <section id="titulo">
-        <div class="container-fluid" style="width: 100%; margin: 0; padding: 0;">
+        <div class="container">
             <div class="title-bitcoin row">
                 <div class="col">
                     <h1 class="titulo_guia">Guía inicial para invertir en Bitcoin
@@ -43,9 +43,9 @@
     </section>
 
 
-    <section id="contactenos" style="height: auto; background-color: #181616;">
-        <div class="container-fluid" style="width: 100%; margin: 0; padding: 0;">
-            <div class="row row-contactenos">
+    <section id="contactenos">
+        <div class="container">
+            <div class="row text-center">
                 <div class="col-xs-12 col-md-6">
 
                     <div class="card mx-auto mt-5"
@@ -76,8 +76,12 @@
                     </div>
 
                 </div>
-                <div class="col-xs-12 col-md-6">
-                    <img class="mx-auto" src="./assets/img/libro.png" alt="imagen libro andres" style="width: 360px;">
+                <div class="col-xs-12 col-md-6 mt-4 ">
+                    <figure>
+                        <img class="mx-auto" src="./assets/img/libro.png" alt="imagen libro andres" style="width: 360px;">
+                        <figcaption class="mb-4" style="color: white">  </figcaption>
+                    </figure>
+                    
 
                 </div>
             </div>
@@ -143,23 +147,38 @@
                         <li><i class="bi bi-check-lg" style="color: #06d656;"></i> Como comprar Usdt y Btc.</li>
                     </ul>
                 </div>
-                <div class="colsm-12 col-md-6 mt-5">
-                    <p>Solo debes registrarte y te enviámos todo el <span class="badge text-bg-danger">Pdf</span>directo
-                        a tu correo electrónico</p>
-                    <input class="form-control mb-4" type="text" placeholder="Nombre Completo"
-                        aria-label="default input example">
-                    <input class="form-control mb-4" type="text" placeholder="Corréo Electrónico"
-                        aria-label="default input example">
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-success" type="button">Enviar</button>
+                <div class="colsm-12 col-md-6">
+                    <div class="card mx-auto mt-5 card-custom"
+                    style="background-color: #2f2f2f; height: 450px; max-width: 340px; min-width: 310px;">
+                    <div class="card-header">
+                        <p>Solo debes registrarte y te enviámos todo el <span
+                                class="badge text-bg-danger">Pdf</span>
+                            directo a tu correo electrónico
+                        </p>
                     </div>
-                    <p class="text-center" style="color: #616666;">*Te garantizo que no recibirás correos
-                        molestos ni de otros temas que no sean de tu interés</p>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Special title treatment</h5> -->
+                        <input class="form-control mb-3" type="text" placeholder="Nombre Completo"
+                            aria-label="default input example">
+                        <input class="form-control mb-3" type="text" placeholder="Corréo Electrónico"
+                            aria-label="default input example">
+
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-success" type="button" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Enviar
+                            </button>
+                        </div>
+
+                        <!-- <p class="text-center" style="color: #616666;">*Te garantizo que no recibirás correos
+                            molestos ni de otros temas que no sean de tu interés</p> -->
+                    </div>
+                </div>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col">
-                    <p>Todos los derechos reservados &copy;</p>
+                    <p>Todos los derechos reservados &copy; 2023</p>
                 </div>
             </div>
         </div>
@@ -206,8 +225,8 @@
                     
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Understood</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">aceptar</button>
+                    
                 </div>
             </div>
         </div>
