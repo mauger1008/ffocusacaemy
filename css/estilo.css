@@ -19,6 +19,25 @@ body {
     background-color: var(--fondo__color);
     max-width: 1010px;
 }
+header {
+    min-width: 360px;
+    
+}
+
+header .hamburguesa {
+    background-color: var(--electro-blue) !important;
+
+}
+a {
+    color: var(--electro-blue);
+}
+
+header .navbar {
+    background-color: var(--electro-blue) !important;
+    min-width:360px;
+    max-width: 1010px;
+    margin: 0 auto;
+} 
 p {
     color: white;
     padding: 10px !important;

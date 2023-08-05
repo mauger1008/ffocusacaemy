@@ -21,10 +21,32 @@
 </head>
 
 <body class="mx-auto">
-    <section id="titulo">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">FFOCCUS ACADEMY</a>
+                <button class="navbar-toggler hamburguesa" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="titulo" class="pt-4">
         <div class="container">
             <div class="title-bitcoin row">
-                <div class="col">
+                <div class="col mt-4">
                     <h1 class="titulo_guia">Guía inicial para invertir en Bitcoin
                     </h1>
                     <p>
@@ -78,10 +100,11 @@
                 </div>
                 <div class="col-xs-12 col-md-6 mt-4 ">
                     <figure>
-                        <img class="mx-auto" src="./assets/img/libro.png" alt="imagen libro andres" style="width: 360px;">
-                        <figcaption class="mb-4" style="color: white">  </figcaption>
+                        <img class="mx-auto" src="./assets/img/libro.png" alt="imagen libro andres"
+                            style="width: 360px;">
+                        <figcaption class="mb-4" style="color: white"> </figcaption>
                     </figure>
-                    
+
 
                 </div>
             </div>
@@ -149,31 +172,31 @@
                 </div>
                 <div class="colsm-12 col-md-6">
                     <div class="card mx-auto mt-5 card-custom"
-                    style="background-color: #2f2f2f; height: 450px; max-width: 340px; min-width: 310px;">
-                    <div class="card-header">
-                        <p class="mb-0">Solo debes registrarte y te enviámos todo el <span
-                                class="badge text-bg-danger">Pdf</span>
-                            directo a tu correo electrónico
-                        </p>
-                    </div>
-                    <div class="card-body" style="height: 45px;">
-                        <!-- <h5 class="card-title">Special title treatment</h5> -->
-                        <input class="form-control mb-3 mt-0" type="text" placeholder="Nombre Completo"
-                            aria-label="default input example">
-                        <input class="form-control mb-3" type="text" placeholder="Corréo Electrónico"
-                            aria-label="default input example">
-
-                        <div class="d-grid gap-2">
-                            <button class="btn btn-success" type="button" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop">
-                                Enviar
-                            </button>
+                        style="background-color: #2f2f2f; height: 450px; max-width: 340px; min-width: 310px;">
+                        <div class="card-header">
+                            <p class="mb-0">Solo debes registrarte y te enviámos todo el <span
+                                    class="badge text-bg-danger">Pdf</span>
+                                directo a tu correo electrónico
+                            </p>
                         </div>
+                        <div class="card-body" style="height: 45px;">
+                            <!-- <h5 class="card-title">Special title treatment</h5> -->
+                            <input class="form-control mb-3 mt-0" type="text" placeholder="Nombre Completo"
+                                aria-label="default input example">
+                            <input class="form-control mb-3" type="text" placeholder="Corréo Electrónico"
+                                aria-label="default input example">
 
-                        <!-- <p class="text-center" style="color: #616666;">*Te garantizo que no recibirás correos
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-success" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">
+                                    Enviar
+                                </button>
+                            </div>
+
+                            <!-- <p class="text-center" style="color: #616666;">*Te garantizo que no recibirás correos
                             molestos ni de otros temas que no sean de tu interés</p> -->
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
             <div class="row text-center">
@@ -183,7 +206,8 @@
             </div>
         </div>
         <div>
-            <button class="btn btn-whatsapp mt-2" style="color: white;" onclick="window.location.href='https://chat.whatsapp.com/JV33SUXocDRK4RsVulpJ7k?text= Hola!, estoy interesado en mas informacion acerca de las inversiones..'">
+            <button class="btn btn-whatsapp mt-2" style="color: white;"
+                onclick="window.location.href='https://chat.whatsapp.com/JV33SUXocDRK4RsVulpJ7k?text= Hola!, estoy interesado en mas informacion acerca de las inversiones..'">
                 <i class=" bi bi-whatsapp"></i> <span>Únete a Nuestra Comunidad</span>
             </button>
 
@@ -191,7 +215,8 @@
 
         <!-- LOGO BITCOIN QUE SEPARA SECCIONES -->
         <div class="position-absolute top-0 start-50 translate-middle">
-            <img src="./assets/icons/currency-bitcoin.svg" alt="" width="30px" style="background-color: #df861a; border-radius: 15px;">
+            <img src="./assets/icons/currency-bitcoin.svg" alt="" width="30px"
+                style="background-color: #df861a; border-radius: 15px;">
         </div>
     </footer>
 
@@ -218,15 +243,16 @@
                         y estamos ansiosos por ver de lo que eres capaz. ¡Hagámoslo!
                     </p>
                     <div class="text-center">
-                        <button class="btn mt-2" style="color: white;" onclick="window.location.href='https://chat.whatsapp.com/JV33SUXocDRK4RsVulpJ7k/?text= Hola!, estoy interesado en mas informacion acerca de las inversiones..'">
+                        <button class="btn mt-2" style="color: white;"
+                            onclick="window.location.href='https://chat.whatsapp.com/JV33SUXocDRK4RsVulpJ7k/?text= Hola!, estoy interesado en mas informacion acerca de las inversiones..'">
                             <i class=" bi bi-whatsapp"></i> <span>Únete a Nuestra Comunidad</span>
                         </button>
                     </div>
-                    
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">aceptar</button>
-                    
+
                 </div>
             </div>
         </div>
