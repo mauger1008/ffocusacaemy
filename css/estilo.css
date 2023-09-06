@@ -60,7 +60,7 @@ button:hover {
 #titulo {
     width: 100%;
     min-width: 400px;
-    height: 500px;
+    height: 450px;
     background-color: var(--verde-platzi) !important;
     text-align: center;
     /* margin-left: 0 !important; */
@@ -119,17 +119,18 @@ button:hover {
     list-style: none;
 }
 
-#quien_soy {
+#realizar-pedido {
+    padding-top: 50px;
     width:100%;
     min-width: 360px;
-    background-color: var(--fondo__color);
+    background-color: var(--lila-head-2);
     text-align: center;
 }
 
 footer {
     width:100%;
     min-width: 360px;
-    background: linear-gradient(var(--fondo__color), var(--electro-blue)) !important;
+    background: linear-gradient(var(--verde-platzi), var(--lila-head-2)) !important;
     color: white;
 }
 
