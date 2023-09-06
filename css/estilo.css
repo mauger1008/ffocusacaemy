@@ -107,12 +107,12 @@ button:hover {
     text-align: center;
 }
 
-#aprenderas {
+#testimonios {
     width:100%;
     min-width: 360px;
-    height: 400px;
-    background: linear-gradient(var(--fondo__color), var(--electro-blue), var(--fondo__color)) !important;
-    color: white;
+    height: 700px;
+    background: var(--verde-platzi) !important;
+    
 }
 
 .lista-aprenderas {
