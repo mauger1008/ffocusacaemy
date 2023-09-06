@@ -59,8 +59,8 @@ button:hover {
 
 #titulo {
     width: 100%;
-    min-width: 360px;
-    height: 400px;
+    min-width: 400px;
+    height: 500px;
     background-color: var(--verde-platzi) !important;
     text-align: center;
     /* margin-left: 0 !important; */
@@ -86,7 +86,7 @@ button:hover {
 #contactenos {
     width:100%;
     
-    min-width: 360px;
+    min-width: 400px;
     height: auto;
     background-color: var(--lila-head-2) !important;
 
@@ -109,7 +109,7 @@ button:hover {
 
 #testimonios {
     width:100%;
-    min-width: 360px;
+    min-width: 400px;
     height: 700px;
     background: var(--verde-platzi) !important;
     
